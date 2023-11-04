@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recipe Website</title>
+    <!-- STYLE CSS LINK -->
+    <link rel="stylesheet" href="style.css">
+    <!-- STYLE CSS LINK -->
+    <!-- BOOTSTRAP CDN LINK -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!-- BOOTSTRAP CDN LINK -->
+    <!-- FONT AWESOME CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <!-- FONT AWESOME CDN -->
+    <!-- GOOGLE FONTS LINK -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@600&display=swap" rel="stylesheet">
+    <!-- GOOGLE FONTS LINK -->
+</head>
+<body>
+<!-- Navbar Start -->
+<nav class="navbar navbar-expand-sm" id="navbar">
+  <a href="#index.html" class="navbar-brand" id="logo"><img src="./images/kasuLogo.ico" alt=""></a>
+  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
+    <span><i class="fa-solid fa-bars"></i></span>
+  </button>
+  <div class="collapse navbar-collapse" id="mynavbar">
+    <ul class="navbar-nav me-auto">
+      <li class="nav-item">
+        <a href="#index.html" class="nav-link">Home</a>
+      </li>
+      <li class="nav-item">
+        <a href="#menu" class="nav-link">Recipe</a>
+      </li>
+      <li class="nav-item">
+        <a href="#footer" class="nav-link">About</a>
+      </li>
+    </ul>
+
+    <form class="d-flex">
+      <input type="text" class="form-control me-2" placeholder="Search" required>
+      <button type="button" id="btn">Search</button>
+    </form>
+
+  </div>
+</nav>
+<!-- Navbar End --> 
+<!-- Home Section Start -->
+<section class="home" id="home">
+  <div class="home-content">
+    <h3>Claim Delicious Burger <br> On Recipe site <span>Burger</span> & <span>How to make it.</span></h3>
+    <p>Burger is a sandwich consisting of a bun, a cooked beef patty, and often other ingredients such as cheese, onion slices, lettuce, or condiments 1. It is a popular fast food item that originated in the United States </p>
+    <a href="#" id="home-btn">Read More</a>
+  </div>
+  <div class="img">
+    <img src="./images/burger.png" id="open1" alt="">
+  </div>
+</section>
+<!-- Home Section End -->
+<!-- Our Menu Start -->
+<section class="menu" id="menu">
+  <h3>Burger Recipe</h3>
+  <div class="menu-card" id="open">
+    <!-- <div class="col-md-12 py-3 py-md-0"> -->
+      <div class="card">
+        <img src="./images/burger.png" alt="">
+        <div class="card-body">
+          <h3>Burger</h3>
+          <h6>Burger is a sandwich consisting...</h6>
+          <div class="rating">
+            <i class="fa-solid fa-star checked"></i>
+            <i class="fa-solid fa-star checked"></i>
+            <i class="fa-solid fa-star checked"></i>
+            <i class="fa-solid fa-star checked"></i>
+            <i class="fa-solid fa-star checked"></i>
+          </div>
+        </div>
+      </div>
+    <!-- </div> -->
+    </div>
+</section>
+<!-- Our Menu End -->
+<div class="discription">
+ <div class="menu1" id="modal-container">
+  <div class="steps">
+    <h2>Burger</h2>
+    <button type="button" class="btn-close" id="close"></button>
+  <p class="details">Burger is a sandwich consisting of a bun, a cooked beef patty, and often other ingredients such as cheese, onion slices, lettuce, or condiments 1. It is a popular fast food item that originated in the United States 
+  </p>
+<div class="requirement">
+  <div class="Ingredients">
+    <h6 class="title">ingredients:</h4>
+      <ul class="step-desc">
+        <li>👉 ground meat</li>
+        <li>👉 braed</li>
+        <li>👉 onion</li>
+        <li>👉 lettuce</li>
+        <li>👉 bacon</li>
+        <li>👉 mayonnaise</li>
+      </ul>
+  </div>
+    <div class="tools">
+      <h6 class="title">Tools:</h4>
+        <ul class="step-desc">
+          <li>👉 griddle pan or skillset</li>
+          <li>👉 salt and peppers grinders</li>
+          <li>👉 meat grinders</li>
+          <li>👉 spatula and others</li>
+        </ul>
+    </div>
+</div>
+  <p>Steps to make burger as follows:-</p>
+    <h6> Steps <span class="num">1</span></h4>
+      <p class="step-desc">Get freshly ground beef from your favorite butcher. Ask the butcher to grind chuck beef for you with a 20% fat content</p>
+      <h6> Steps <span class="num">2</span></h4>
+      <p class="step-desc">Season the ground beef with salt, pepper, and any other ingredients you want to add to the burger, such as Worcestershire sauce, ketchup, mustard, and chopped herbs </p>
+      <h6> Steps <span class="num">3</span></h4>
+      <p class="step-desc">Mix the ingredients together with a spoon and then use your clean hands to thoroughly combine the ingredients. Handle the meat as little as possible, so you don’t squeeze out the juices</p>
+      <h6> Steps <span class="num">4</span></h4>
+      <p class="step-desc">Shape the mixture into 6 equal-sized balls using your hands. Press the balls down to make flat burger shapes about ½ inch (1.27cm) thick. Make a small indentation in the center of the burger with your thumb. This prevents the center from swelling, leading to uneven cooking </p>
+      <h6> Steps <span class="num">5</span></h4>
+      <p class="step-desc">Cover the burgers with plastic wrap or wax paper and chill for 30 minutes to a few hours to make the burgers firmer and easier to cook </p>
+      <h6> Steps <span class="num">6</span></h4>
+      <p class="step-desc">Heat a cast-iron skillet over medium-high heat. Once it’s hot, season the patties with salt and place them in the pan 2. Cook the patties for 2-4 minutes over medium-high heat. Then, flip each patty over and cook them for an additional 2-4 minutes. In the final 1 minute of cooking, top the patties with slices of your favorite cheese </p>
+  </div>
+</div>
+</div>
+
+<!-- Footer Start -->
+<footer id="footer">
+  <div class="f-content">
+    <div class="f-logo" id="logo"><img src="./images/kasuLogo.ico" alt=""></div>
+    <p>This is recipe site that provide a set of instructions for preparing a particular dish, including a list of the ingredients required.</p>
+    <i class="fa-brands fa-twitter"></i>
+    <i class="fa-brands fa-instagram"></i>
+    <i class="fa-brands fa-facebook-f"></i>
+    <i class="fa-brands fa-youtube"></i>
+    <i class="fa-brands fa-twitter"></i>
+  </div>
+  <br>
+  <div class="c-content">
+    &copy; Copyright kasu. All Rights Reserved <br>
+    <span>Designed By <a href="#">KASAHUN</a></span>
+  </div>
+</footer>
+<!-- Footer End -->
+
+    <!-- BOOTSTRAP CDN LINK -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <!-- BOOTSTRAP CDN LINK -->
+  <script src="main.js"></script>
+
+</body>
+</html>
